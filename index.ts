@@ -54,7 +54,7 @@ const arg: Arguments = yargs.options({
   
   let password = pg.getPassword();
   if (pg.getValid()){
-    console.log(password +' (' + password.length.toString()+ ')');
+    console.log(password;
   } else {
     console.log('adjust please …')
   }

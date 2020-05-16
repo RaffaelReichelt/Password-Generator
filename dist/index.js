@@ -36,7 +36,7 @@ if (arg.x) {
 }
 var password = pg.getPassword();
 if (pg.getValid()) {
-    console.log(password + ' (' + password.length.toString() + ')');
+    console.log(password);
 }
 else {
     console.log('adjust please …');
