@@ -1,18 +1,21 @@
 {
-  "name": "password-generator",
-  "version": "1.0.0",
+  "name": "@rreichelt/pw-gen",
+  "version": "1.0.2",
   "description": "A simple password generating module with a CLI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "generate": "./dist/index.js"
+},
   "author": "Raffael Reichelt",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^13.13.2"
+    "@types/yargs": "^15.0.5",
+    "yargs": "^15.3.1",
+     "@types/node": "^13.13.2"
   },
   "devDependencies": {
-    "@types/yargs": "^15.0.5",
-    "yargs": "^15.3.1"
-  }
+ }
 }
