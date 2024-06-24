@@ -1,0 +1,20 @@
+{
+  "name": "pinandpassword",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts -m 8 -p"
+  },
+  "author": "Raffael Reichelt | ConfigPoint",
+  "license": "MIT",
+  "dependencies": {
+    "@types/yargs": "^17.0.32",
+    "ts-node": "^10.9.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "typescript": "^5.5.2"
+  }
+}
