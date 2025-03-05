@@ -1,6 +1,6 @@
 {
   "name": "@rreichelt/pw-gen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple password generating module with a CLI",
   "main": "index.js",
   "scripts": {

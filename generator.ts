@@ -24,7 +24,6 @@ export class GeneratorService {
     generate(): void {
         this.password = '';
         if (this.letters === ''){
-            this.setLowercase();
             this.setNumbers();
         }
         this.letters = this.letters.split('').sort(function () { return 0.5 - Math.random() }).join('');

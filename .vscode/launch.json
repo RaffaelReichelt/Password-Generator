@@ -12,7 +12,7 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/dist/index.js",
-            "args": ["-m=11", "-s 0"],
+            "args": ["-m=6",  "n"],
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
