@@ -7,15 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "generate": "./dist/index.js"
-},
+    "generate": "dist/index.js"
+  },
   "author": "Raffael Reichelt",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^13.13.2",
     "@types/yargs": "^15.0.5",
-    "yargs": "^15.3.1",
-     "@types/node": "^13.13.2"
-  },
-  "devDependencies": {
- }
+    "pinandpassword": "^1.0.3",
+    "yargs": "^15.3.1"
+  }
 }
